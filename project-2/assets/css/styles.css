@@ -17,7 +17,7 @@ Grid
     width: 600px;
     height: 800px;
     background-color: aqua;
-    background: linear-gradient(blue, purple);
+    background: linear-gradient(120deg, blue, purple);
     padding-top: 30px;
 }
 
@@ -61,7 +61,7 @@ button {
     padding: 12px 120px;
     border: none;
     border-radius: 20px;
-    background: linear-gradient(blue, purple);
+    background: linear-gradient(to right, blue, purple);
     font-family: Roboto;
     font-weight: 900;
     font-size: 15px;
@@ -97,30 +97,27 @@ Flex
 
 /*
  ============================================
- circle
+ Radio
  ============================================
   */
 
-.col-1 {
+#col-1 {
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    background-color: blue;
+    accent-color: blue;
     margin-top: 0;
     margin-left: 10px;
 }
-.col-2 {
+#col-2 {
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    background-color: rgb(202, 36, 64);
+    accent-color: rgb(202, 36, 64);
     margin: 0 10px;
 }
-.col-3 {
+#col-3 {
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    background-color: yellow;
+    accent-color: yellow;
     margin-top: 0;
 }
 
