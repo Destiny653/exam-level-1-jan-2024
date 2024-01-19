@@ -1,0 +1,151 @@
+
+/*
+================================================
+Grid 
+================================================ 
+ */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 600px;
+    height: 800px;
+    background-color: aqua;
+    background: linear-gradient(blue, purple);
+    padding-top: 30px;
+}
+
+.img-part {
+    height: 200px;
+}
+
+.child-cont {
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.color-spot,
+.prcie-tab {
+    margin: 0;
+}
+.prcie-tab {
+    margin-left: 130px;
+}
+
+.prcie-tab h1 {
+    margin: 0;
+}
+.flex-container {
+    margin: 50px auto;
+}
+
+/* 
+============================================
+button
+============================================
+*/
+
+button {
+    display: block;
+    padding: 12px 120px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(blue, purple);
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+/* 
+=============================================
+img
+=============================================
+ */
+
+.shoe-im {
+    width: 200px;
+    position: absolute;
+    top: 70px;
+}
+
+.addidas-im {
+    position: relative;
+    bottom: 20px;
+}
+
+/* 
+==============================================
+Flex 
+==============================================
+ */
+
+.flex-container,
+.color-spot {
+    display: flex;
+}
+
+/*
+ ============================================
+ circle
+ ============================================
+  */
+
+.col-1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.col-2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(202, 36, 64);
+    margin: 0 10px;
+}
+.col-3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top: 0;
+}
+
+/* 
+==============================================
+Typography
+==============================================
+ */
+
+ .text-sec h1 {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 900;
+ }
+
+ .prcie-tab h1 {
+    font-family: Roboto;
+ }
+ .prcie-tab span {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 10px;
+ }
+ .text-sec p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+ }

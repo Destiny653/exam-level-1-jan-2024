@@ -1,4 +1,11 @@
-*,
+
+/* 
+=================================================
+Grid
+=================================================
+ */
+
+ *,
 ::before,
 ::after {
     -webkit-box-sizing: border-box;
@@ -13,10 +20,6 @@ body {
     font-weight: 900;
 }
 
-table {
-    border: 1px solid #f00;
-    border-spacing: 0;
-}
 
 tr td:nth-child(1) {
     padding-right: 50px;
@@ -30,14 +33,11 @@ thead td {
 td {
     text-align: center;
     border-bottom: 1px solid #f00;
-    /* border-radius: 2px; */
     border-spacing: 0;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.bod-col td {
-    border-top: 1px solid #f00;
-}
+
 tr:last-child td {
     border-bottom: none;  
 }
@@ -45,15 +45,14 @@ tr:last-child td {
      padding-top: 10px;
      padding-right: 10px;
 }
- 
-.fa-check {
-    color: #00ff80;
-    font-weight: 300;
-}
-.fa-times {
-    color: #ff4500;
-    font-weight: 300;
-}
+
+
+/* 
+==================================================
+Button
+==================================================
+*/
+
 button {
      display: block;
      padding: 10px 20px;
@@ -62,21 +61,53 @@ button {
      color: #fff;
      border-radius: 4px;
 }
+
+/* 
+==================================================
+Tpography
+==================================================
+*/
+
+
+table {
+    border: 1px solid #f00;
+    border-spacing: 0;
+}
+
+.fa-check {
+    color: #00ff80;
+    font-weight: 300;
+}
+
+.fa-times {
+    color: #ff4500;
+    font-weight: 300;
+}
+
+.bod-col td {
+    border-top: 1px solid #f00;
+}
+
 .btn-1 {
     background-color: #ff4500;
 }
+
 .btn-2 {
     background-color: #1e90ff;
 }
+
 .btn-3 {
     background-color: #008081;
 }
+
 .t1 {
     background-color: #ff4500;
 }
+
 .t2 {
     background-color: #1e90ff;
 }
+
 .t3 {
     background-color: #008081;
 }
